@@ -1,0 +1,143 @@
+# Configuration from: https://gohugo.io/getting-started/configuration/
+baseURL: https://thepabloaguilar.dev/
+buildDrafts: true
+buildExpired: true
+buildFuture: true
+canonifyURLs: true
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableEmoji: true
+enableGitInfo: true
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+googleAnalytics: G-VNY2ZZCQBJ
+
+imaging:
+  quality: 80
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+    menu:
+      main:
+        - name: Archive
+          url: archives/
+          weight: 1
+        - name: Categories
+          url: categories/
+          weight: 2
+        - name: Tags
+          url: tags/
+          weight: 3
+        - name: Search
+          url: search/
+          weight: 4
+
+    description: |
+      Pablo Aguilar's personal blog. Here you can find techonology blog posts and talks that I presented
+
+    homeInfoParams:
+      Title: "Hi there \U0001F44B"
+      Content: Welcome to my blog
+  pt-br:
+    languageName: Português
+    weight: 2
+
+    menu:
+      main:
+        - name: Arquivo
+          url: archives/
+          weight: 1
+        - name: Categorias
+          url: categories/
+          weight: 2
+        - name: Tags
+          url: tags/
+          weight: 3
+        - name: Busca
+          url: search/
+          weight: 4
+
+    description: |
+      Blog pessoal onde vocë pode encontrar posts sobre tecnologia e palestrar que apresentei.
+
+    homeInfoParams:
+      Title: "Aobaa, bão?! \U0001F44B"
+      Content: Bem vindo ao meu blog.
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+paginate: 5
+
+permalinks:
+  posts: /:slug/
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+theme: PaperMod
+title: thepabloaguilar
+titleCaseStyle: Chicago
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+  # Theme params: https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
+  env: production
+  title: thepabloaguilar
+  author: Pablo Aguilar
+
+  images:
+    - me.jpeg
+
+  keywords:
+    - blog
+    - personal blog
+    - technology
+    - programming
+    - pablo aguilar
+
+  DateFormat: "January 2, 2006"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  defaultTheme: true
+  ShowPostNavLinks: true
+  comments: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"] ##  can be less but not more than shown in list
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/thepabloaguilar"
+    - name: medium
+      url: "https://thepabloaguilar.medium.com/"
+    - name: dev
+      url: "https://dev.to/thepabloaguilar"
+    - name: twitter
+      url: "https://twitter.com/thepabloaguilar"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/thepabloaguilar"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+    hiddenInList: true
