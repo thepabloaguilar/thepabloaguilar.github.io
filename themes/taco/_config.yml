@@ -1,0 +1,25 @@
+logo:
+  color: white
+  background_color: black
+
+nav:
+  blog: /
+  talks: /talks/
+  about: /about/
+
+social_links:
+  github: https://github.com/thepabloaguilar
+  linkedin: https://www.linkedin.com/in/pablohaguilar
+  dev: https://dev.to/thepabloaguilar
+  medium: https://medium.com/@thepabloaguilar
+  twitter: https://twitter.com/thepabloaguilar
+
+google_analytics:
+
+open_graph:
+  type: blog
+  twitter_id: '@thepabloaguilar'
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:

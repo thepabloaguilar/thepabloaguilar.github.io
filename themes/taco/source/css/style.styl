@@ -1,0 +1,57 @@
+@import "_variables"
+@import "_colors"
+@import "_mixins"
+
+global-reset()
+
+*, *:before, *:after
+  box-sizing: border-box
+
+html
+  margin: 0
+  padding: 0
+  height: 100%
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+
+body
+  margin: 0
+  height: 100%
+  background-color: $color-background
+  color: $color-text
+  font-weight: 400
+  font-size: $font-size
+  font-family: $font-family-body
+  line-height: $line-height
+  text-rendering: geometricPrecision
+  flex: 1
+
+  antialias()
+
+.content
+  position: relative
+  display: flex
+  flex-direction: column
+  min-height: 100%
+
+  p
+    hyphens(auto)
+
+  code
+    hyphens(manual)
+
+  a
+    color: $color-text
+    text-decoration: none
+
+.max-width
+  max-width: $page-width
+
+.mx-auto
+  margin-right: auto
+  margin-left: auto
+
+@import "_partial/header"
+@import "_partial/footer"
+@import "_partial/index"
+@import "_partial/pagination"

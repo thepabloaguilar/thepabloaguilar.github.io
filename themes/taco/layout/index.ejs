@@ -1,0 +1,30 @@
+<section id="post_list">
+  <ul>
+  <% page.posts.each(function(post) { %>
+    <li class="post_list_item">
+      <a class="post_title" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <div class="post_meta">
+        <time datetime="<%= date_xml(post.date) %>"><%= date(post.date, 'LL') %></time>
+        <p> <%- reading_time(strip_html(post.content)) %> min read</p>
+        <% if (post.tags.length) { %>
+          <div class="article-tag">
+            <i class="fas fa-tags"></i>
+            <%- list_tags(post.tags, { show_count: false, style: 'link' }) %>
+          </div>
+        <% } %>
+      </div>
+      <div class="post_description">
+        <p><%- post.description %> </p>
+      </div>
+    </li>
+  <% }) %>
+  </ul>
+  <% if (page.total > 1) { %>
+  <div id="pagination">
+    <%- paginator({
+      prev_text: ' PREV',
+      next_text: 'NEXT '
+    }) %>
+  </div>
+  <% } %>
+</section>

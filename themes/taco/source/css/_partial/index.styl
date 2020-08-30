@@ -1,0 +1,41 @@
+#post_list
+  padding-bottom: 4rem
+
+  p
+    margin: 0
+    margin-top: 0.5em
+
+  ul
+    padding: 0
+    margin: 0
+    display: flex
+    flex-flow: row wrap
+    list-style: none
+
+    .post_list_item
+      padding-top: 1.8em
+      padding-bottom: 1.8em
+      border-bottom: 1px solid #d6d6d6
+
+      &:last-child
+        border-bottom: 0px
+
+      .post_title
+        color: #000000
+        font-weight: bold
+        font-size: 2.2em
+        line-height: 1.25
+
+      .post_meta
+        font-size: 1.1em
+
+        .article-tag,
+        p
+          display: inline
+
+          &:before
+            content: "|"
+            margin: 0.2em
+
+      .post_description
+        font-size: 1.2em

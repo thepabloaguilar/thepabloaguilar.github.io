@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html <%= config.language ? " lang=" + config.language : ""%>>
+  <%- partial('_partial/head') %>
+  <body>
+      <div class="content max-width mx-auto">
+          <%- partial('_partial/header') %>
+          <%- body %>
+          <%- partial('_partial/footer') %>
+      </div>
+      <%- partial('_partial/scripts/googleAnalytics') %>
+  </body>
+</html>

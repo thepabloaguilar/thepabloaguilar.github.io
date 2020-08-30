@@ -1,0 +1,46 @@
+#pagination
+  display: flex
+  flex-flow: row wrap
+  align-items: center
+  justify-content: center
+  align-content: center
+  margin-bottom: 20px
+  vertical-align: middle
+  margin-top: 2rem
+  width: 100%
+  font-weight: bold
+
+  .page-number
+    border: 1px solid transparent
+    border-radius: 360px
+    padding: 10px 16px
+    width: 3.3em
+    text-align: center
+    margin-right: 10px
+
+    &:hover
+      border-color: black
+
+  .current
+    background-color: black
+    color: #ffffff
+
+  .prev
+    position: absolute
+    left: 1em
+
+    &:before
+      content: "\f053"
+      font-family: "Font Awesome 5 Free"
+
+  .next
+    position: absolute
+    right: 1em
+
+    &:after
+      content: "\f054"
+      font-family: "Font Awesome 5 Free"
+
+@media (max-width: 39rem)
+  .page-number
+    visibility: hidden

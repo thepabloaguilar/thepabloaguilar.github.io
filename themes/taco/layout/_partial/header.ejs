@@ -1,0 +1,16 @@
+<header id="header">
+  <div id="title">
+    <h1>
+      <a href="<%- url_for("/") %>" style="color: <%- theme.logo.color %>;background-color: <%- theme.logo.background_color %>;">
+        <%= config.title %>
+      </a>
+    </h1>
+  </div>
+  <div id="nav">
+    <ul>
+      <% for (var name in theme.nav) { %>
+        <li><a href="<%- url_for(theme.nav[name]) %>"><%= __('nav.' + name).replace("nav.", "") %></a></li>
+      <% } %>
+    </ul>
+  </div>
+</header>

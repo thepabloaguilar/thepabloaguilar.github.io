@@ -1,0 +1,23 @@
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- hexo meta generator -->
+    <%- meta_generator() %>
+
+    <!-- open graph tags -->
+    <%- open_graph({
+      type: theme.open_graph.type || 'blog',
+      twitter_id: theme.open_graph.twitter_id,
+      twitter_site: theme.open_graph.twitter_site,
+      google_plus: theme.open_graph.google_plus,
+      fb_admins: theme.open_graph.fb_admins,
+      fb_app_id: theme.open_graph.fb_app_id
+    }) %>
+
+    <!-- styles -->
+    <%- css('css/style') %>
+    <%- css('fonts/font-awesome/css/all.min.css') %>
+</head>

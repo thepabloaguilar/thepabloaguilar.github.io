@@ -1,0 +1,33 @@
+#footer
+  position: absolute
+  bottom: 0
+  margin-bottom: 10px
+  width: 100%
+  vertical-align: top
+  text-align: center
+
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+    li
+      display: inline-block
+      margin-right: 10px
+      vertical-align: middle
+
+      a
+        font-size: 25px
+
+@media (min-width: 39rem)
+  #footer
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+    align-content: center
+    margin-bottom: 20px
+    vertical-align: middle
+
+    .footer-right
+      align-self: flex-end
