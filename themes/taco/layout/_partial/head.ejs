@@ -17,6 +17,8 @@
       fb_app_id: theme.open_graph.fb_app_id
     }) %>
 
+    <title><%- page.title ? `${page.title} - ` : '' %><%= config.title %></title>
+
     <!-- styles -->
     <%- css('css/style') %>
     <%- css('fonts/font-awesome/css/all.min.css') %>

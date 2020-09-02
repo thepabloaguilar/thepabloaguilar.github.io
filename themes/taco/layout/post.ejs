@@ -1,0 +1,16 @@
+<article class="post">
+  <p class="post_title"><%= page.title %></p>
+  <div class="post_meta">
+    <time datetime="<%= date_xml(page.date) %>"><%= date(page.date, 'LL') %></time>
+    <p> <%- reading_time(strip_html(page.content)) %> min read</p>
+    <% if (page.tags.length) { %>
+      <div class="article-tag">
+        <i class="fas fa-tags"></i>
+        <%- list_tags(page.tags, { show_count: false, style: 'link' }) %>
+      </div>
+    <% } %>
+  </div>
+  <div class="content">
+    <%- page.content %>
+  </div>
+</article>
