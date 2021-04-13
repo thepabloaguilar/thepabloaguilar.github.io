@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engenharia de software on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/pt-br/categories/engenharia-de-software/</link>
+    <description>Recent content in engenharia de software on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thepabloaguilar.dev/pt-br/categories/engenharia-de-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Não é só um Pull Request</title>
+      <link>https://thepabloaguilar.dev/pt-br/nao-e-so-um-pull-request/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/pt-br/nao-e-so-um-pull-request/</guid>
+      <description>Em todas as minhas experiências profissionais até agora eu vi várias pessoas/times ignorando o significado por trás de um Pull Request (PR), tratando ele só como um tipo de burocracia para colocar o código em produção.
+Algumas vezes escutei pessoas falando uma para outra: &amp;ldquo;Vou abrir um PR aqui, aceita ai que está tudo certo&amp;rdquo;. No final esse PR foi realmente aceito sem nenhum tipo de revisão e acabou quebrando todo o sistema, posso dizer que o revisor é tão culpado quanto o revisado porque nesse caso o revisor foi negligente!</description>
+    </item>
+    
+  </channel>
+</rss>

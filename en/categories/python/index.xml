@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/en/categories/python/</link>
+    <description>Recent content in python on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thepabloaguilar.dev/en/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monkey Patching is not too bad</title>
+      <link>https://thepabloaguilar.dev/en/monkey-patching-is-not-too-bad/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/en/monkey-patching-is-not-too-bad/</guid>
+      <description>History A few months ago I&amp;rsquo;ve started to contribute with returns, an amazing Open Source Python library with a lot of containers to help us in many ways, I won&amp;rsquo;t cover those containers here but you can access the documentation page to know more about them.
+Here I&amp;rsquo;m going to cover why we chose the monkey patching technique to implements a feature, Improve Failure Traceability, to the Result containers.
+Just a brief explanation of what is a Result container, basically your code can take two ways:</description>
+    </item>
+    
+  </channel>
+</rss>

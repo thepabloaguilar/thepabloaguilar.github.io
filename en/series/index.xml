@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/en/series/</link>
+    <description>Recent content in Series on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://thepabloaguilar.dev/en/series/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

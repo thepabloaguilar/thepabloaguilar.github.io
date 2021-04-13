@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/en/categories/</link>
+    <description>Recent content in Categories on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thepabloaguilar.dev/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software engineering</title>
+      <link>https://thepabloaguilar.dev/en/categories/software-engineering/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/en/categories/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://thepabloaguilar.dev/en/categories/python/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/en/categories/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

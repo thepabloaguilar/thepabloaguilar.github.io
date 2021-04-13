@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/pt-br/tags/python/</link>
+    <description>Recent content in python on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thepabloaguilar.dev/pt-br/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monkey Patching não é tão ruim</title>
+      <link>https://thepabloaguilar.dev/pt-br/monkey-patching-nao-e-tao-ruim/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/pt-br/monkey-patching-nao-e-tao-ruim/</guid>
+      <description>Contexto Há alguns meses atrás comecei a contribuir em biblioteca Open Source para python, returns, ela têm vários recursos e contêineres legais para nos ajudar de diferentes maneiras. Não irei me aprofundar neles nesse post, mas você pode acessar a documentação para saber mais sobre!
+Nesse post irei falar sobre o porquê nós escolhemos a técnica de monkey patching para implementar uma de nossas features onde o objetivo era melhorar a rastreabilidade de falhas para os contêineres Result.</description>
+    </item>
+    
+  </channel>
+</rss>

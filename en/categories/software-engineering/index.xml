@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software engineering on thepabloaguilar</title>
+    <link>https://thepabloaguilar.dev/en/categories/software-engineering/</link>
+    <description>Recent content in software engineering on thepabloaguilar</description>
+    <image>
+      <url>https://thepabloaguilar.dev/me.jpeg</url>
+      <link>https://thepabloaguilar.dev/me.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thepabloaguilar.dev/en/categories/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s not just a Pull Request</title>
+      <link>https://thepabloaguilar.dev/en/its-not-just-a-pull-request/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thepabloaguilar.dev/en/its-not-just-a-pull-request/</guid>
+      <description>In all my professional experiences so far I&amp;rsquo;ve seen a lot of people/teams ignoring the meaning behind a Pull Request (PR), treating it like a kind of bureaucracy to deploy their piece of code.
+Sometimes I heard people saying to each other: &amp;ldquo;I&amp;rsquo;ll open a PR, just accept it because everything is fine&amp;rdquo;. In the end that accepted PR crashed the entire system, I can say that reviewer was as wrong as the reviewee because he was negligent!</description>
+    </item>
+    
+  </channel>
+</rss>
